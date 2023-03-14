@@ -11,15 +11,32 @@ html {
  width: 870px;
  height: 600px;
  padding: 20px;
- margin: 0 auto;
+ margin: 0 auto; 
 }
+
+.margin-left {
+    margin-left: 30px;
+}
+
 h3 {
-    color: rgb(240, 234, 209);
+    color: rgb(254, 255, 234);
 }
 div {
-    color:rgb(165, 165, 152) ;
+    color:rgb(254, 255, 234) ;
 }
-.grid-name {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.pls-fil {
+    margin: 40px 0px 60px 0px;
+}
+.flex-name {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+
+.name {
+width: 340px ;
+height: 35px ;
+
 }
